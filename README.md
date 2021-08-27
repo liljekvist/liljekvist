@@ -1,6 +1,6 @@
+# Welcome to "bad puns" Section
 
+Q: Why do programmers like dark mode? 
 
-<!---
-liljekvist/liljekvist is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+A: Because light attracts bugs
+
