@@ -69,13 +69,13 @@ $(function($) { "use strict";
 	});
 
 	
-	//Wildlife portfolio page
+	//cloeopatra portfolio page
 	
-	$(".wildlife").on('click', function () {
-		$("body").addClass("wildlife-on");
+	$(".cloeopatra").on('click', function () {
+		$("body").addClass("cloeopatra-on");
 	});
-	$(".wildlife-close").on('click', function () {
-		$("body").removeClass("wildlife-on");
+	$(".cloeopatra-close").on('click', function () {
+		$("body").removeClass("cloeopatra-on");
 	});
 
 	

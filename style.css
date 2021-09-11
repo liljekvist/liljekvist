@@ -211,7 +211,7 @@ body.essay-on .hero-section {
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
 }
-body.wildlife-on .hero-section {
+body.cloeopatra-on .hero-section {
 	transform: rotateX(-10deg);
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
@@ -431,7 +431,7 @@ body.education-on .education-section {
 }
 
 .essay-section,
-.wildlife-section,
+.cloeopatra-section,
 .nature-section {
     position: fixed;
 	top: 100%;
@@ -448,7 +448,7 @@ body.education-on .education-section {
 	z-index: 10;
 }
 .essay-close,
-.wildlife-close,
+.cloeopatra-close,
 .nature-close {
     position: absolute;
 	top: 20px;
@@ -467,7 +467,7 @@ body.education-on .education-section {
 	z-index: 11;
 }
 .essay-close:hover,
-.wildlife-close:hover,
+.cloeopatra-close:hover,
 .nature-close:hover {
     transform: rotate(90deg);
 }
@@ -476,7 +476,7 @@ body.essay-on .essay-section {
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
 }
-body.wildlife-on .wildlife-section {
+body.cloeopatra-on .cloeopatra-section {
 	top: 0;
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
@@ -487,7 +487,7 @@ body.nature-on .nature-section {
 	transition-delay: 400ms;
 }
 .essay-section img,
-.wildlife-section img,
+.cloeopatra-section img,
 .nature-section img {
 	margin-top: 30px;
     width: 100%;
@@ -497,7 +497,7 @@ body.nature-on .nature-section {
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 .essay-section h3,
-.wildlife-section h3,
+.cloeopatra-section h3,
 .nature-section h3 {
 	font-size: 44px;
 	line-height: 1.3;
@@ -506,14 +506,14 @@ body.nature-on .nature-section {
 	color: #fff;
 }
 .essay-section p,
-.wildlife-section p,
+.cloeopatra-section p,
 .nature-section p {
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 1px;
 }
 .essay-section p span,
-.wildlife-section p span,
+.cloeopatra-section p span,
 .nature-section p span {
 	font-size: 20px;
 	line-height: 1.3;
