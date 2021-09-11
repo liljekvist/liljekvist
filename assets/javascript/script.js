@@ -88,12 +88,7 @@ $(function($) { "use strict";
 		$("body").removeClass("adventofcode-on");
 	});
 
-	
-
-}); 
-
-$(function(){
-    $('#chart').radarChart({
+  $('#chart').radarChart({
       size: [500, 300],
       step: 1,
       title: "",
@@ -125,7 +120,7 @@ $(function(){
           step: 1,
           size: [300,300],
           values: {},
-          color: [0,128,255]
+          color: [0,157,255]
         },settings);
         this.width = settings.size[0];
         this.height = settings.size[1];
@@ -177,8 +172,8 @@ $(function(){
                        this.height/2,
                        this.settings.step * spacing * i,
                        0, 2 * Math.PI, false);
-          this.cxt.strokeStyle = "#666";
-          this.cxt.fillStyle = "#444";
+          this.cxt.strokeStyle = "#c4c3ca";
+          this.cxt.fillStyle = "#c4c3ca";
           this.cxt.stroke();
           if (this.settings.showAxisLabels)
             this.cxt.fillText(i,this.width/2 + this.settings.step * spacing * i+4, this.height/2-2);
@@ -193,6 +188,8 @@ $(function(){
           this.cxt.moveTo(this.width / 2, this.height /2);
           var x = this.width / 2 + Math.cos((Math.PI * 2) * (i / size)) * spacing * max;
           var y = this.height /2 + Math.sin((Math.PI * 2) * (i / size)) * spacing * max;
+          this.cxt.fillStyle = "#c4c3ca";
+          this.cxt.strokeStyle = "#c4c3ca";
           this.cxt.lineTo(x, y);
           this.cxt.stroke();
         }
@@ -223,7 +220,7 @@ $(function(){
         grad.addColorStop(1,"rgba("+this.settings.color[0]+","+this.settings.color[1]+","+this.settings.color[2]+",1)");
         this.cxt.fillStyle = grad;
         this.cxt.shadowBlur = 2;
-        this.cxt.shadowColor = "rgba(0, 0, 0, .2)";
+        this.cxt.shadowColor = "rgba(195, 196, 202, 1)";
         this.cxt.stroke();
         this.cxt.fill();
         
@@ -232,9 +229,9 @@ $(function(){
         i = 0;
         $.each(this.settings.values, function(key,val){
           that.newCanvas('label-'+i, i * 250);
-          that.cxt.fillStyle = "rgba(0,0,0,.8)";
-          that.cxt.strokeStyle = "rgba(0,0,0,.5)";
-          that.cxt.font = "bold 12px Verdana";
+          that.cxt.fillStyle = "rgba(195,196,202,0.8)";
+          that.cxt.strokeStyle = "rgba(195,196,202,0.8)";
+          that.cxt.font = "bold 12px Poppins";
           var dist = Math.min(spacing * val, size * spacing);
           var x = that.width / 2 + Math.cos((Math.PI * 2) * (i / size)) * spacing * val;
           var y = that.height / 2 + Math.sin((Math.PI * 2) * (i / size)) * spacing * val;
@@ -270,7 +267,7 @@ $(function(){
         
         
         this.newCanvas('title',1000);
-        this.cxt.font = "bold 24px Verdana";
+        this.cxt.font = "bold 24px Poppins";
         this.cxt.fillText(this.settings.title, 10, 30); 
       }
       
