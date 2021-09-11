@@ -11,7 +11,7 @@ $(function($) { "use strict";
 
     });
 
-        $(document).on('mousemove', function(n) {
+    $(document).mousemove(function(n) {
             if(!($(".mouse-cursor").hasClass("disabled"))){
                 t.style.left = n.clientX + "px", 
                 t.style.top = n.clientY + "px", 
@@ -20,7 +20,7 @@ $(function($) { "use strict";
                 i.style.left = n.clientX + "px", 
                 i.style.top = n.clientY + "px"
             }
-        });
+        }).mouseover();
     var t = document.getElementById("cursor"),
         e = document.getElementById("cursor2"),
         i = document.getElementById("cursor3");
@@ -94,13 +94,14 @@ $(function($) { "use strict";
       title: "",
       values: {
         "C++": 6.5,
+        "Cmake": 4.0,
         "C": 3.5,
         "JavaScript": 3.0,
         "jQuery": 2.5,
         "HTML": 3.0,
         "CSS": 2.4,
         "PHP": 2,
-        "vimscript": 2,
+        "vimscript": 2.5,
         "MariaDB/MYSQL": 3.5,
         "Problem Solving": 4,
       },
