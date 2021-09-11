@@ -216,7 +216,7 @@ body.cloeopatra-on .hero-section {
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
 }
-body.nature-on .hero-section {
+body.adventofcode-on .hero-section {
 	transform: rotateX(-10deg);
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
@@ -432,7 +432,7 @@ body.education-on .education-section {
 
 .essay-section,
 .cloeopatra-section,
-.nature-section {
+.adventofcode-section {
     position: fixed;
 	top: 100%;
 	left: 0;
@@ -449,7 +449,7 @@ body.education-on .education-section {
 }
 .essay-close,
 .cloeopatra-close,
-.nature-close {
+.adventofcode-close {
     position: absolute;
 	top: 20px;
 	right: 20px;
@@ -468,7 +468,7 @@ body.education-on .education-section {
 }
 .essay-close:hover,
 .cloeopatra-close:hover,
-.nature-close:hover {
+.adventofcode-close:hover {
     transform: rotate(90deg);
 }
 body.essay-on .essay-section {
@@ -481,14 +481,14 @@ body.cloeopatra-on .cloeopatra-section {
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
 }
-body.nature-on .nature-section {
+body.adventofcode-on .adventofcode-section {
 	top: 0;
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
 }
 .essay-section img,
 .cloeopatra-section img,
-.nature-section img {
+.adventofcode-section img {
 	margin-top: 30px;
     width: 100%;
 	height: auto;
@@ -498,7 +498,7 @@ body.nature-on .nature-section {
 }
 .essay-section h3,
 .cloeopatra-section h3,
-.nature-section h3 {
+.adventofcode-section h3 {
 	font-size: 44px;
 	line-height: 1.3;
 	font-weight: 700;
@@ -507,42 +507,16 @@ body.nature-on .nature-section {
 }
 .essay-section p,
 .cloeopatra-section p,
-.nature-section p {
+.adventofcode-section p {
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 1px;
 }
 .essay-section p span,
 .cloeopatra-section p span,
-.nature-section p span {
+.adventofcode-section p span {
 	font-size: 20px;
 	line-height: 1.3;
 	font-weight: 700;
 	color: #866BAF;
-}
-/* #Link to page
-================================================== */
-
-.link-to-portfolio {
-	  position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 200;
-    cursor: pointer;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    border-radius: 3px;
-    background-position: center center;
-    background-size: 65%;
-  background-repeat: no-repeat;
-    background-image: url('https://assets.codepen.io/1462889/fcy.png');
-    box-shadow: 0 0 0 2px rgba(255,255,255,.1);
-    transition: opacity .2s, border-radius .2s, box-shadow .2s;
-    transition-timing-function: ease-out;
-}
-.link-to-portfolio:hover {
-    opacity: 0.8;
-    border-radius: 50%;
-    box-shadow: 0 0 0 20px rgba(255,255,255,.1);
 }
