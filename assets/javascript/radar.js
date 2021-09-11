@@ -1,115 +1,4 @@
-
-
-/* Please ❤ this if you like it! */
-
-
-$(function($) { "use strict";
-    $(".toggle-mousepointer").on('click', function () {
-        $(".mouse-cursor").toggleClass("disabled");
-        $(".mouse-cursor2").toggleClass("disabled");
-        $(".mouse-cursor3").toggleClass("disabled");
-
-    });
-
-    $(document).mousemove(function(n) {
-            if(!($(".mouse-cursor").hasClass("disabled"))){
-                t.style.left = n.clientX + "px", 
-                t.style.top = n.clientY + "px", 
-                e.style.left = n.clientX + "px", 
-                e.style.top = n.clientY + "px", 
-                i.style.left = n.clientX + "px", 
-                i.style.top = n.clientY + "px"
-            }
-        }).mouseover();
-    var t = document.getElementById("cursor"),
-        e = document.getElementById("cursor2"),
-        i = document.getElementById("cursor3");
-    function n(t) {
-        e.classList.add("hover"), i.classList.add("hover")
-    }
-    function s(t) {
-        e.classList.remove("hover"), i.classList.remove("hover")
-    }
-    s();
-    for (var r = document.querySelectorAll(".hover-target"), a = r.length - 1; a >= 0; a--) {
-        o(r[a])
-    }
-    function o(t) {
-        t.addEventListener("mouseover", n), t.addEventListener("mouseout", s)
-    }
-
-	
-	//About page
-	
-	$(".about-text").on('click', function () {
-		$("body").addClass("about-on");
-	});
-	$(".about-close").on('click', function () {
-		$("body").removeClass("about-on");
-	});
-
-	
-	//Education page
-	
-	$(".education-text").on('click', function () {
-		$("body").addClass("education-on");
-	});
-	$(".education-close").on('click', function () {
-		$("body").removeClass("education-on");
-	});
-
-	
-	//Essay portfolio page
-	
-	$(".essay").on('click', function () {
-		$("body").addClass("essay-on");
-	});
-	$(".essay-close").on('click', function () {
-		$("body").removeClass("essay-on");
-	});
-
-	
-	//cloeopatra portfolio page
-	
-	$(".cloeopatra").on('click', function () {
-		$("body").addClass("cloeopatra-on");
-	});
-	$(".cloeopatra-close").on('click', function () {
-		$("body").removeClass("cloeopatra-on");
-	});
-
-	
-	//Adventofcode portfolio page
-	
-	$(".adventofcode").on('click', function () {
-		$("body").addClass("adventofcode-on");
-	});
-	$(".adventofcode-close").on('click', function () {
-		$("body").removeClass("adventofcode-on");
-	});
-
-  $('#chart').radarChart({
-      size: [500, 300],
-      step: 1,
-      title: "",
-      values: {
-        "C++": 6.5,
-        "Cmake": 4.0,
-        "C": 3.5,
-        "JavaScript": 3.0,
-        "jQuery": 2.5,
-        "HTML": 3.0,
-        "CSS": 2.4,
-        "PHP": 2,
-        "vimscript": 2.5,
-        "MariaDB/MYSQL": 3.5,
-        "Problem Solving": 4,
-      },
-      showAxisLabels: true
-    });
-  });
-  
-  (function($) {
+(function($) {
     
     var Radar = (function() {
       
@@ -173,8 +62,8 @@ $(function($) { "use strict";
                        this.height/2,
                        this.settings.step * spacing * i,
                        0, 2 * Math.PI, false);
-          this.cxt.strokeStyle = "#c4c3ca";
-          this.cxt.fillStyle = "#c4c3ca";
+          this.cxt.strokeStyle = "#424242";
+          this.cxt.fillStyle = "#424242";
           this.cxt.stroke();
           if (this.settings.showAxisLabels)
             this.cxt.fillText(i,this.width/2 + this.settings.step * spacing * i+4, this.height/2-2);
@@ -189,8 +78,8 @@ $(function($) { "use strict";
           this.cxt.moveTo(this.width / 2, this.height /2);
           var x = this.width / 2 + Math.cos((Math.PI * 2) * (i / size)) * spacing * max;
           var y = this.height /2 + Math.sin((Math.PI * 2) * (i / size)) * spacing * max;
-          this.cxt.fillStyle = "#c4c3ca";
-          this.cxt.strokeStyle = "#c4c3ca";
+          this.cxt.fillStyle = "#424242";
+          this.cxt.strokeStyle = "#424242";
           this.cxt.lineTo(x, y);
           this.cxt.stroke();
         }
@@ -281,5 +170,25 @@ $(function($) { "use strict";
         var radar = new Radar(ele, settings);
       });
     }
+
+    $('#chart').radarChart({
+      size: [500, 300],
+      step: 1,
+      title: "",
+      values: {
+        "C++": 6.5,
+        "Cmake": 4.0,
+        "C": 3.5,
+        "JavaScript": 3.0,
+        "jQuery": 2.5,
+        "HTML": 3.0,
+        "CSS": 2.4,
+        "PHP": 2,
+        "vimscript": 2.5,
+        "MariaDB/MYSQL": 3.5,
+        "Problem Solving": 4,
+      },
+      showAxisLabels: true
+    });
     
   })(jQuery);
