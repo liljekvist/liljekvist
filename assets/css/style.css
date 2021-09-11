@@ -50,20 +50,20 @@ hr{
 .button-github {
   width: 32px;
   height: 32px;
-  background: url("github-hollow.png") no-repeat;
+  background: url("../images/github-hollow.png") no-repeat;
   display: inline-block;
 }
 .button-github:hover {
-  background: url("github-filled.png") no-repeat;
+  background: url("../images/github-filled.png") no-repeat;
 }
 .button-drive {
   width: 32px;
   height: 32px;
-  background: url("drive-hollow.png") no-repeat;
+  background: url("../images/drive-hollow.png") no-repeat;
   display: inline-block;
 }
 .button-drive:hover {
-  background: url("drive-filled.png") no-repeat;
+  background: url("../images/drive-filled.png") no-repeat;
 }
 
 /* #Cursor
@@ -124,7 +124,7 @@ hr{
 	display: block;
 	overflow: hidden;
 	height: 100vh;
-	background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('background.jpg');
+	background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('../images/background.jpg');
 	background-size: cover;
 	background-position: center;
 	transform: scale(1) rotateX(0);
