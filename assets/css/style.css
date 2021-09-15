@@ -61,20 +61,20 @@ hr{
 .button-github {
   width: 32px;
   height: 32px;
-  background: url("../images/github-hollow.png") no-repeat;
+  background: url("../images/github.png") no-repeat;
   display: inline-block;
 }
 .button-github:hover {
-  background: url("../images/github-filled.png") no-repeat;
+  background: url("../images/github-dark.png") no-repeat;
 }
 .button-drive {
   width: 32px;
   height: 32px;
-  background: url("../images/drive-hollow.png") no-repeat;
+  background: url("../images/drive.png") no-repeat;
   display: inline-block;
 }
 .button-drive:hover {
-  background: url("../images/drive-filled.png") no-repeat;
+  background: url("../images/drive-dark.png") no-repeat;
 }
 
 /* #Cursor
