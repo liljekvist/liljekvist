@@ -172,7 +172,7 @@
     }
 
     $('#chart').radarChart({
-      size: [500, 300],
+      size: [600, 300],
       step: 1,
       title: "",
       values: {

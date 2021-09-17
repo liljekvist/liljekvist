@@ -48,5 +48,12 @@ $(function($) {
 	$(".adventofcode-close").on('click', function () {
 		$("body").removeClass("adventofcode-on");
 	});
+
+	$(".website").on('click', function () {
+		$("body").addClass("website-on");
+	});
+	$(".website-close").on('click', function () {
+		$("body").removeClass("website-on");
+	});
   });
   
