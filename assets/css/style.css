@@ -174,6 +174,11 @@ body.essay-on .hero-section {
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
 }
+body.rapi-on .hero-section {
+	transform: rotateX(-10deg);
+	-webkit-transition-delay: 0ms;
+	transition-delay: 0ms;
+}
 body.cloeopatra-on .hero-section {
 	transform: rotateX(-10deg);
 	-webkit-transition-delay: 0ms;
@@ -401,6 +406,7 @@ body.education-on .education-section {
 }
 
 .essay-section,
+.rapi-section,
 .cloeopatra-section,
 .adventofcode-section,
 .website-section {
@@ -419,6 +425,7 @@ body.education-on .education-section {
 	z-index: 10;
 }
 .essay-close,
+.rapi-close,
 .cloeopatra-close,
 .adventofcode-close,
 .website-close {
@@ -439,12 +446,19 @@ body.education-on .education-section {
 	z-index: 11;
 }
 .essay-close:hover,
+.rapi-close:hover,
 .cloeopatra-close:hover,
 .adventofcode-close:hover,
 .website-close:hover {
     transform: rotate(90deg);
 }
 body.essay-on .essay-section {
+	top: 0;
+	-webkit-transition-delay: 400ms;
+	transition-delay: 400ms;
+}
+
+body.rapi-on .rapi-section {
 	top: 0;
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
@@ -465,6 +479,7 @@ body.adventofcode-on .adventofcode-section {
 	transition-delay: 400ms;
 }
 .essay-section img,
+.rapi-section img,
 .cloeopatra-section img,
 .adventofcode-section img,
 .website-section img {
@@ -476,6 +491,7 @@ body.adventofcode-on .adventofcode-section {
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 .essay-section h3,
+.rapi-section h3,
 .cloeopatra-section h3,
 .adventofcode-section h3,
 .website-section h3 {
@@ -486,6 +502,7 @@ body.adventofcode-on .adventofcode-section {
 	color: #fff;
 }
 .essay-section p,
+.rapi-section p,
 .cloeopatra-section p,
 .adventofcode-section p,
 .website-section p {
@@ -494,6 +511,7 @@ body.adventofcode-on .adventofcode-section {
 	letter-spacing: 1px;
 }
 .essay-section p span,
+.rapi-section p span,
 .cloeopatra-section p span,
 .adventofcode-section p span,
 .website-section p span {

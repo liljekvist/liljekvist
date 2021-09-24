@@ -29,6 +29,15 @@ $(function($) {
 		$("body").removeClass("essay-on");
 	});
 
+	//Essay portfolio page
+	
+	$(".rapi").on('click', function () {
+		$("body").addClass("rapi-on");
+	});
+	$(".rapi-close").on('click', function () {
+		$("body").removeClass("rapi-on");
+	});
+
 	
 	//cloeopatra portfolio page
 	
