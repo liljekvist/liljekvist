@@ -1,7 +1,4 @@
 $(function($) {
-	
-	//About page
-	
 	$(".about-text").on('click', function () {
 		$("body").addClass("about-on");
 	});
@@ -51,6 +48,7 @@ $(function($) {
 
 	$(".cloeopatra-close").on('click', function () {
 		$("body").removeClass("cloeopatra-on");
+		
 	});
 
 	
