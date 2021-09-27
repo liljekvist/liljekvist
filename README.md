@@ -1,6 +1,6 @@
 # Info and preferneces
 **OS**: im not really sure. Using Arch and Windows in dualboot config at the moment. <br>
-**Prefered coding lang**: I prefer C++ but its not always practical, shorter scripts i usually write in python but I also use javascript when needed. <br>
+**Prefered coding lang**: I prefer C++ but its not always practical, shorter scripts I usually write in python but I also use javascript when needed. <br>
 **Prefered coding IDE**: Mostly use VSCode or vim on linux and VSCode and VS2019 on Windows. <br>
 
 <em>NTS: Im not sure what to put here. It looks so empty.</em>
