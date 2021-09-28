@@ -255,8 +255,8 @@ body.about-on .about-section {
 }
 .about-close {
     position: absolute;
-	top: 20px;
-	right: 20px;
+	top: 50px;
+	right: 100px;
 	width: 30px;
 	display: block;
 	overflow: hidden;
@@ -265,8 +265,8 @@ body.about-on .about-section {
 	transition: all 200ms linear;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 36px 36px;
-	background-image: url('http://www.ivang-design.com/svg-load/portfolio/close.svg');
+	background-size: 100px 100px;
+	background-image: url('../images/close.png');
 	cursor: pointer;
 	z-index: 11;
 }
@@ -356,8 +356,8 @@ body.education-on .education-section {
 }
 .education-close {
     position: absolute;
-	top: 20px;
-	right: 20px;
+	top: 50px;
+	right: 100px;
 	width: 30px;
 	display: block;
 	overflow: hidden;
@@ -366,8 +366,8 @@ body.education-on .education-section {
 	transition: all 200ms linear;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 36px 36px;
-	background-image: url('http://www.ivang-design.com/svg-load/portfolio/close.svg');
+	background-size: 100px 100px;
+	background-image: url('../images/close.png');
 	cursor: pointer;
 	z-index: 11;
 }
@@ -430,8 +430,8 @@ body.education-on .education-section {
 .adventofcode-close,
 .website-close {
     position: absolute;
-	top: 20px;
-	right: 20px;
+	top: 50px;
+	right: 100px;
 	width: 30px;
 	display: block;
 	overflow: hidden;
@@ -440,8 +440,8 @@ body.education-on .education-section {
 	transition: all 200ms linear;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 36px 36px;
-	background-image: url('http://www.ivang-design.com/svg-load/portfolio/close.svg');
+	background-size: 100px 100px;
+	background-image: url('../images/close.png');
 	cursor: pointer;
 	z-index: 11;
 }
