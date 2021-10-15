@@ -88,6 +88,17 @@ hr{
   background: url("../images/drive-dark.png") no-repeat;
 }
 
+.button-in {
+	width: 32px;
+	height: 32px;
+	margin: 5px;
+	background: url("../images/linkedin.png") no-repeat;
+	display: inline-block;
+  }
+  .button-in:hover {
+	background: url("../images/linkedin-dark.png") no-repeat;
+  }
+
 
 /* #Primary style
 ================================================== */
