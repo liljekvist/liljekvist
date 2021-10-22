@@ -16,3 +16,5 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=liljekvist&langs_count=5&show_icons=true&theme=dark&bg_color=90,ab543d,9c2785,610f8b&hide=javascript)](https://liljekvist.github.io/)
 
 ## Latest Blog Posts
+<!-- BLOGPOSTS:START -->
+<!-- BLOGPOSTS:END -->
