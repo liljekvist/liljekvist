@@ -13,7 +13,7 @@
 ---
 [![liljekvists's GitHub stats](https://github-readme-stats.vercel.app/api?username=liljekvist&show_icons=true&theme=dark&bg_color=90,610f8b,9c2785,ab543d)](https://github.com/liljekvist?tab=repositories)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=liljekvist&langs_count=5&show_icons=true&theme=dark&bg_color=90,ab543d,9c2785,610f8b&hide=javascript)](https://github.com/liljekvist?tab=repositories)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=liljekvist&langs_count=5&show_icons=true&theme=dark&card_width=495&bg_color=90,ab543d,9c2785,610f8b&hide=javascript)](https://github.com/liljekvist?tab=repositories)
 
 ## Latest Blog Posts
 <!-- BLOGPOSTS:START -->
