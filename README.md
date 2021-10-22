@@ -15,7 +15,7 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=liljekvist&langs_count=5&show_icons=true&theme=dark&card_width=495&bg_color=90,ab543d,9c2785,610f8b&hide=javascript)](https://github.com/liljekvist?tab=repositories)
 
-## Latest Blog Posts
+## Latest Blog Project Posts
 <!-- BLOGPOSTS:START -->
 - [A Website for a hairsalon](https://liljekvist.github.io/posts/fris%C3%B6r-cleopatra/)
 - [A simple clock made with raylib](https://liljekvist.github.io/posts/raspberrypi-clock/)
