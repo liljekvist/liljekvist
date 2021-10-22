@@ -1,5 +1,5 @@
 # Info and preferneces
-**OS**: im not really sure. Using Arch and Windows in dualboot config at the moment. <br>
+**OS**: Dualboot Windows 10<img alt="Windows Logo" width="13px" src="https://img.icons8.com/color/48/000000/windows-10.png" /> and Manjaro<img alt="Manjaro Logo" width="13px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Manjaro-logo.svg/256px-Manjaro-logo.svg.png" /> <br>
 **Prefered coding language**: I prefer C++ but its not always practical, shorter scripts I usually write in python but I also use javascript when needed. <br>
 **Prefered coding IDE**: Mostly use VSCode or vim on linux and VSCode and VS2019 on Windows. <br>
 
