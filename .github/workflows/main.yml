@@ -4,6 +4,8 @@ on:
   schedule:
     # Runs every day at 9am UTC
     - cron: '0 4 * * *'
+    
+  workflow_dispatch:
 
 jobs:
   build:
