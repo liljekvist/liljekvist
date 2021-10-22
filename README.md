@@ -17,7 +17,7 @@
 
 ## Latest Blog Posts
 <!-- BLOGPOSTS:START -->
-- [A Website for a hairsaloon](https://liljekvist.github.io/posts/fris%C3%B6r-cleopatra/)
+- [A Website for a hairsalon](https://liljekvist.github.io/posts/fris%C3%B6r-cleopatra/)
 - [A simple clock made with raylib](https://liljekvist.github.io/posts/raspberrypi-clock/)
 - [Privacy focused forum](https://liljekvist.github.io/posts/drogon-website/)
 <!-- BLOGPOSTS:END -->
