@@ -220,7 +220,7 @@ body.adventofcode-on .hero-section {
 }
 .about-text {
     position: absolute;
-	font-size: 17px;
+	font-size: 25px;
 	line-height: 20px;
 	font-weight: 700;
 	color: #fff;
@@ -321,7 +321,7 @@ body.about-on .about-section {
 
 .education-text {
     position: absolute;
-	font-size: 17px;
+	font-size: 25px;
 	line-height: 20px;
 	font-weight: 700;
 	color: #fff;
