@@ -1,5 +1,5 @@
 # Info and preferneces
-**OS**: Dualboot Windows 10<img alt="Windows Logo" width="10px" src="https://img.icons8.com/color/48/000000/windows-10.png" /> and Manjaro<img alt="Manjaro Logo" width="10px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Manjaro-logo.svg/256px-Manjaro-logo.svg.png" /> <br>
+**OS**: Dualboot Endeavor OS and Windows 11 <br>
 **Preferred coding language**: I prefer C++ but it's not always practical, shorter scripts I usually write in python but I also use javascript when needed. <br>
 **Preferred coding IDE**: Mostly use VSCode or vim on GNU/Linux and VSCode and VS2019 on Windows. <br>
 
