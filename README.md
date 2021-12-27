@@ -1,5 +1,5 @@
 # Info and preferneces
-**OS**: Dualboot Endeavor OS and Windows 11 <br>
+**OS**: Dualboot Calculate Linux and Windows 11 <br>
 **Preferred coding language**: I prefer C++ but it's not always practical, shorter scripts I usually write in python but I also use javascript when needed. <br>
 **Preferred coding IDE**: Mostly use VSCode or vim on GNU/Linux and VSCode and VS2019 on Windows. <br>
 
